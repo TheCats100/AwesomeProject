@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Button, View, SafeAreaView, Text, Alert } from 'react-native';
+import { Actions } from 'react-native-router-flux'
+
 
 const Home = () => {
   const goToAbout = () => {
@@ -15,7 +17,11 @@ const Home = () => {
           'Because you pushed the blue button !',
         )}
       />
-      <Text>Ok</Text>
+      <Text>Ok ok</Text>
+      <Button 
+        title="Go to about"
+        onPress={goToAbout}
+      />
       <StatusBar style="auto" hidden={true} />
     </View>
   );

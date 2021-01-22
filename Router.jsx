@@ -1,7 +1,7 @@
-import React from 'react'
-import { Router, Scene } from 'react-native-router-flux'
-import Home from './components/Home'
-import About from './components/About'
+import React from 'react';
+import { Router, Scene } from 'react-native-router-flux';
+import Home from './Home.jsx';
+import About from './About.jsx';
 
 const Routes = () => (
    <Router>
